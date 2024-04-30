@@ -20,6 +20,7 @@ def upload_file():
         if file and allowed_file(file.filename):
             # Proceed with file processing
             filename = secure_filename(file.filename)
+            # call a fun to read a data if its in txt or json then store in mongo otherwise store in mysql
             # Here you can handle uploading to MongoDB or any other operations
             return "Data Uploaded successfully to MongoDB!!!", 200
         else:
