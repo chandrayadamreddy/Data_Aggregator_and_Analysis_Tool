@@ -4,3 +4,5 @@ pymongo
 requests
 python-dotenv
 openpyxl
+
+mysql-connector-python
